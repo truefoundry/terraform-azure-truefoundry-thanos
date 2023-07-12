@@ -3,5 +3,5 @@ output "thanos_identity_client_id" {
 }
 
 output "thanos_container_id" {
-    value = azurerm_storage_container.thanos.id
+  value = azurerm_storage_container.thanos.id
 }
